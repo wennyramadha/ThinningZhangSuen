@@ -1,3 +1,12 @@
+"""
+****************************************************************
+#Author: wennyramadha
+
+#This is the implementation of Thinning Zhang Suen Algorithm
+****************************************************************
+"""
+import cv2 
+
 def thinning(self,image):
         iter = 0
         lb, ti = np.shape(image)
